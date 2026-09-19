@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-900 text-white font-sans;
+}
+
+.panel {
+    @apply bg-slate-900/80 backdrop-blur-md rounded-lg border border-gray-700 p-4;
+}
+
+.header {
+    @apply text-lg font-bold mb-2;
+}
+
+.slider {
+    @apply w-full h-2 rounded-full;
+}
+
+.slider-track {
+    @apply bg-cyan-500;
+}
+
+.slider-thumb {
+    @apply w-4 h-4 bg-cyan-500 rounded-full;
+}
+
+.button {
+    @apply w-full py-2 rounded-lg text-white;
+}
+
+.button-run {
+    @apply border border-cyan-500 bg-transparent hover:bg-cyan-500;
+}
+
+.button-pause {
+    @apply bg-cyan-500 text-gray-900;
+}
+
+.footer-stats {
+    @apply text-sm mt-4;
+}
+
+.neon-cyan {
+    color: #00FFFF;
+}
+
+.neon-magenta {
+    color: #FF00FF;
+}
+
+.neon-green {
+    color: #00FF00;
+}
+
+.neon-red {
+    color: #FF0000;
+}
